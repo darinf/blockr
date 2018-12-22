@@ -1,0 +1,15 @@
+{
+  "name": "BlockR",
+  "version": "0.1",
+  "description": "Block hledejslevu.com!",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "manifest_version": 2
+}
